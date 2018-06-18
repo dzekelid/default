@@ -1,0 +1,79 @@
+---
+swagger: "2.0"
+x-collection-name: SendGrid
+x-complete: 1
+info:
+  title: SendGrid
+  description: the-sendgrid-web-api-v3-documentation--this-is-the-entirety-of-the-documented-v3-endpoints--we-have-updated-all-the-descriptions-parameters-requests-and-responses--authentication-every-endpoint-requires-authentication-in-the-form-of-an-authorization-header-authorization-bearer-api-key
+  version: 1.0.0
+host: api.sendgrid.com
+basePath: /v3
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /whitelabel/domains/default:
+    get:
+      summary: Get Whitelabel Domains Default
+      description: "**This endpoint allows you to retrieve the default whitelabel
+        for a domain.**\n\nA domain whitelabel allows you to remove the \u201Cvia\u201D
+        or \u201Csent on behalf of\u201D message that your recipients see when they
+        read your emails. Whitelabeling a domain allows you to replace sendgrid.net
+        with your personal sending domain. You will be required to create a subdomain
+        so that SendGrid can generate the DNS records which you must give to your
+        host provider. If you choose to use Automated Security, SendGrid will provide
+        you with 3 CNAME records. If you turn Automated Security off, you will be
+        given 2 TXT records and 1 MX record.\n\nFor more information on whitelabeling,
+        please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
+        URI Parameters\n| URI Parameter   | Type   | Description  |\n|---|---|---|\n|
+        domain | string  |The domain to find a default domain whitelabel for. |"
+      operationId: whitelabel.domains.default.get
+      x-api-path-slug: whitelabeldomainsdefault-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Whitelabel
+      - Domains
+      - Default
+  /whitelabel/links/default:
+    get:
+      summary: Get Whitelabel Links Default
+      description: |-
+        **This endpoint allows you to retrieve the default link whitelabel.**
+
+        Default link whitelabel is the actual link whitelabel to be used when sending messages. If there are multiple link whitelabels, the default is determined by the following order:
+        <ul>
+          <li>Validated link whitelabels marked as "default"</li>
+          <li>Legacy link whitelabels (migrated from the whitelabel wizard)</li>
+          <li>Default SendGrid link whitelabel (i.e. 100.ct.sendgrid.net)</li>
+        </ul>
+
+        Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
+
+        For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
+      operationId: whitelabel.links.default.get
+      x-api-path-slug: whitelabellinksdefault-get
+      parameters:
+      - in: query
+        name: domain
+        description: The domain to match against when finding a corresponding link
+          whitelabel
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Whitelabel
+      - Links
+      - Default
+---
