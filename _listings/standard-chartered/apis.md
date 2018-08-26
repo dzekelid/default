@@ -12,74 +12,60 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "4658"
 tags: Default
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/standard-chartered/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Standard Chartered Bank Code Inquiry
-  x-api-slug: standard-chartered
-  description: "The \u201CGetBankCode\u201D API returns list of Bank Codes for the
-    specified combination of \u201CCountry\u201D, \u201CCity\u201D and \u201CBank\u201D
-    combination. The data will contain the \u201CBank Code(s)\u201D as well as the
-    address for the Bank & Branch."
+- name: Standard Chartered - Bank Code Inquiry
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultbranches-post
+  description: The ???GetBankCode??? API returns list of Bank Codes for the specified
+    combination of ???Country???, ???City??? and ???Bank??? combination. The data
+    will contain the ???Bank Code(s)??? as well as the address for the Bank & Branch.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/reference/default/branches
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Reference, Default, Branches
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultbranches-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultbranches-post-openapi.md
-- name: Standard Chartered Holiday Calendar Inquiry (Country)
-  x-api-slug: standard-chartered
-  description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays applicable
-    for the specified combination of:\n<ul><li>Country</li><li>Date Range</li></lu>"
+- name: Standard Chartered - Holiday Calendar Inquiry (Country)
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcountrycountry-get
+  description: |-
+    The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+    <ul><li>Country</li><li>Date Range</li></lu>
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/reference/default/holiday-calendar/country/{country}
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Reference, Default, Holay, Calendar,
-    Country, Country
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcountrycountry-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcountrycountry-get-openapi.md
-- name: Standard Chartered Holiday Calendar Inquiry (Currency)
-  x-api-slug: standard-chartered
-  description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays applicable
-    for the specified combination of:\n<ul><li>Currency</li><li>Date Range</li></lu>"
+- name: Standard Chartered - Holiday Calendar Inquiry (Currency)
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get
+  description: |-
+    The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+    <ul><li>Currency</li><li>Date Range</li></lu>
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/reference/default/holiday-calendar/currency/{currency}
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Reference, Default, Holay, Calendar,
-    Currency, Currency
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-openapi.md
-- name: Standard Chartered
-  x-api-slug: standard-chartered
-  description: Standard Chartered PLC is a British multinational banking and financial
-    services company headquartered in London, England. It operates a network of more
-    than 1,200 branches and outlets (including subsidiaries, associates and joint
-    ventures) across more than 70 countries and employs around 87,000 people. It is
-    a universal bank with operations in consumer, corporate and institutional banking,
-    and treasury services. Despite its UK base, it does not conduct retail banking
-    in the UK, and around 90% of its profits come from Asia, Africa and the Middle
-    East.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
-  humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com//
-  tags: Default
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/standard-chartered/openapi.md
 x-common:
 - type: x-accessibility
   url: https://developer.sc.com/cib/#/accessibility
+- type: x-api-gallery
+  url: http://stack.exchange.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://standard.chartered.stack.network
 - type: x-applications
   url: https://developer.sc.com/cib/#/showcases
 - type: x-crunchbase

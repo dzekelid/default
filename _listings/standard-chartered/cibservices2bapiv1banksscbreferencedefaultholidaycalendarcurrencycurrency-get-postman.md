@@ -2,7 +2,7 @@
   "info": {
     "name": "Standard Chartered Holiday Calendar Inquiry (Currency)",
     "_postman_id": "c6a1a5f4-d153-4e36-8b36-f13a8a8a92e2",
-    "description": "The “GetHolidayCalendar” API returns list of holidays applicable for the specified combination of:\n<ul><li>Currency</li><li>Date Range</li></lu>",
+    "description": "The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:\n<ul><li>Currency</li><li>Date Range</li></lu>",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -50,7 +50,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetAccountBalance” API upon successful user authentication and entitlement checks will return the various types of “Account Balances” applicable for the specified Account Number."
+            "description": "The ???GetAccountBalance??? API upon successful user authentication and entitlement checks will return the various types of ???Account Balances??? applicable for the specified Account Number."
           },
           "response": [
             {
@@ -102,7 +102,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetTransactionTypes” API upon successful user authentication and entitlement checks will return the supported transaction types for the specified account"
+            "description": "The ???GetTransactionTypes??? API upon successful user authentication and entitlement checks will return the supported transaction types for the specified account"
           },
           "response": [
             {
@@ -169,7 +169,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetBankCode” API returns list of Bank Codes for the specified combination of “Country”, “City” and “Bank” combination. The data will contain the “Bank Code(s)” as well as the address for the Bank & Branch."
+            "description": "The ???GetBankCode??? API returns list of Bank Codes for the specified combination of ???Country???, ???City??? and ???Bank??? combination. The data will contain the ???Bank Code(s)??? as well as the address for the Bank & Branch."
           },
           "response": [
             {
@@ -214,7 +214,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetHolidayCalendar” API returns list of holidays applicable for the specified combination of:\n<ul><li>Country</li><li>Date Range</li></lu>"
+            "description": "The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:\n<ul><li>Country</li><li>Date Range</li></lu>"
           },
           "response": [
             {
@@ -259,7 +259,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetHolidayCalendar” API returns list of holidays applicable for the specified combination of:\n<ul><li>Currency</li><li>Date Range</li></lu>"
+            "description": "The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:\n<ul><li>Currency</li><li>Date Range</li></lu>"
           },
           "response": [
             {

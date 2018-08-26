@@ -4,8 +4,9 @@ x-collection-name: Standard Chartered
 x-complete: 0
 info:
   title: Standard Chartered Holiday Calendar Inquiry (Currency)
-  description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays applicable
-    for the specified combination of:\n<ul><li>Currency</li><li>Date Range</li></lu>"
+  description: |-
+    The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+    <ul><li>Currency</li><li>Date Range</li></lu>
   termsOfService: https://www.sc.com/terms-and-conditions
   contact:
     name: Steve Spicer
@@ -24,16 +25,18 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/reference/default/branches:
     post:
       summary: Bank Code Inquiry
-      description: "The \u201CGetBankCode\u201D API returns list of Bank Codes for
-        the specified combination of \u201CCountry\u201D, \u201CCity\u201D and \u201CBank\u201D
-        combination. The data will contain the \u201CBank Code(s)\u201D as well as
-        the address for the Bank & Branch."
+      description: The ???GetBankCode??? API returns list of Bank Codes for the specified
+        combination of ???Country???, ???City??? and ???Bank??? combination. The data
+        will contain the ???Bank Code(s)??? as well as the address for the Bank &
+        Branch.
       operationId: postCibServiceS2bApiV1BanksScbReferenceDefaultBranches
       x-api-path-slug: cibservices2bapiv1banksscbreferencedefaultbranches-post
       responses:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -47,9 +50,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/reference/default/holiday-calendar/country/{country}:
     get:
       summary: Holiday Calendar Inquiry (Country)
-      description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays
-        applicable for the specified combination of:\n<ul><li>Country</li><li>Date
-        Range</li></lu>"
+      description: |-
+        The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+        <ul><li>Country</li><li>Date Range</li></lu>
       operationId: getCibServiceS2bApiV1BanksScbReferenceDefaultHolayCalendarCountryCountry
       x-api-path-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcountrycountry-get
       parameters:
@@ -63,6 +66,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -79,9 +84,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/reference/default/holiday-calendar/currency/{currency}:
     get:
       summary: Holiday Calendar Inquiry (Currency)
-      description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays
-        applicable for the specified combination of:\n<ul><li>Currency</li><li>Date
-        Range</li></lu>"
+      description: |-
+        The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+        <ul><li>Currency</li><li>Date Range</li></lu>
       operationId: getCibServiceS2bApiV1BanksScbReferenceDefaultHolayCalendarCurrencyCurrency
       x-api-path-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get
       parameters:
@@ -95,6 +100,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b

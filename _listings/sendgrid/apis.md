@@ -7,35 +7,36 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Default
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Whitelabel Domains Default
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve the default whitelabel for
-    a domain.**\n\nA domain whitelabel allows you to remove the \u201Cvia\u201D or
-    \u201Csent on behalf of\u201D message that your recipients see when they read
-    your emails. Whitelabeling a domain allows you to replace sendgrid.net with your
-    personal sending domain. You will be required to create a subdomain so that SendGrid
-    can generate the DNS records which you must give to your host provider. If you
-    choose to use Automated Security, SendGrid will provide you with 3 CNAME records.
-    If you turn Automated Security off, you will be given 2 TXT records and 1 MX record.\n\nFor
-    more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)\n\n##
-    URI Parameters\n| URI Parameter   | Type   | Description  |\n|---|---|---|\n|
-    domain | string  |The domain to find a default domain whitelabel for. |"
+- name: SendGrid - Get Whitelabel Domains Default
+  x-api-slug: whitelabeldomainsdefault-get
+  description: |-
+    **This endpoint allows you to retrieve the default whitelabel for a domain.**
+
+    A domain whitelabel allows you to remove the ???via??? or ???sent on behalf of??? message that your recipients see when they read your emails. Whitelabeling a domain allows you to replace sendgrid.net with your personal sending domain. You will be required to create a subdomain so that SendGrid can generate the DNS records which you must give to your host provider. If you choose to use Automated Security, SendGrid will provide you with 3 CNAME records. If you turn Automated Security off, you will be given 2 TXT records and 1 MX record.
+
+    For more information on whitelabeling, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/Whitelabel/index.html)
+
+    ## URI Parameters
+    | URI Parameter   | Type   | Description  |
+    |---|---|---|
+    | domain | string  |The domain to find a default domain whitelabel for. |
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//whitelabel/domains/default
-  tags: Email,Whitelabel, Domains, Default
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/sendgrid/whitelabeldomainsdefault-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/sendgrid/whitelabeldomainsdefault-get-openapi.md
-- name: SendGrid Get Whitelabel Links Default
-  x-api-slug: sendgrid
+- name: SendGrid - Get Whitelabel Links Default
+  x-api-slug: whitelabellinksdefault-get
   description: |-
     **This endpoint allows you to retrieve the default link whitelabel.**
 
@@ -51,29 +52,21 @@ apis:
     For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//whitelabel/links/default
-  tags: Email,Whitelabel, Links, Default
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/sendgrid/whitelabellinksdefault-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/sendgrid/whitelabellinksdefault-get-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3
-  tags: Default
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

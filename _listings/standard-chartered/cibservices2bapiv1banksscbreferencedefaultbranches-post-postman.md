@@ -2,7 +2,7 @@
   "info": {
     "name": "Standard Chartered Bank Code Inquiry",
     "_postman_id": "62da9556-6d8d-4b56-b7d3-77edb95e5741",
-    "description": "The “GetBankCode” API returns list of Bank Codes for the specified combination of “Country”, “City” and “Bank” combination. The data will contain the “Bank Code(s)” as well as the address for the Bank & Branch.",
+    "description": "The ???GetBankCode??? API returns list of Bank Codes for the specified combination of ???Country???, ???City??? and ???Bank??? combination. The data will contain the ???Bank Code(s)??? as well as the address for the Bank & Branch.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -18,7 +18,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The “GetBankCode” API returns list of Bank Codes for the specified combination of “Country”, “City” and “Bank” combination. The data will contain the “Bank Code(s)” as well as the address for the Bank & Branch."
+            "description": "The ???GetBankCode??? API returns list of Bank Codes for the specified combination of ???Country???, ???City??? and ???Bank??? combination. The data will contain the ???Bank Code(s)??? as well as the address for the Bank & Branch."
           },
           "response": [
             {
