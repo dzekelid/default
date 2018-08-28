@@ -11,11 +11,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Default
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS RDS API - Describe Engine Default Cluster Parameters
+  x-api-slug: actiondescribeenginedefaultclusterparameters-get
+  description: Returns the default engine and system parameter information for the
+    cluster database engine.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/aws-rds/actiondescribeenginedefaultclusterparameters-get-openapi.md
+- name: AWS RDS API - Describe Engine Default Parameters
+  x-api-slug: actiondescribeenginedefaultparameters-get
+  description: Returns the default engine and system parameter information for the
+    specified database engine.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/aws-rds/actiondescribeenginedefaultparameters-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.polly.api.gallery.streamdata.io

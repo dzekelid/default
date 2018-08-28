@@ -8,11 +8,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-
 x-kinRank: "7"
 x-alexaRank: "603625"
 tags: Default
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/broadleaf-commerce/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Broadleaf Commerce API - Get Catalog Product Default sku
+  x-api-slug: catalogproductproductiddefaultsku-get
+  description: Get catalog product default sku.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/default/master/_listings/broadleaf-commerce/catalogproductproductiddefaultsku-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://demo.broadleafcommerce.org/api/v1/v2/api-docs

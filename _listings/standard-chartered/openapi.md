@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Standard Chartered
 x-complete: 1
@@ -113,4 +112,3 @@ paths:
       - Calendar
       - Currency
       - Currency
----
